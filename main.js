@@ -25,10 +25,9 @@ btn.addEventListener("click",function(){
 // console.log(ran);
         
     boxArr.forEach(b=>{
-        let ran = Math.floor(Math.random()*arr1.length)
+     let ran = Math.floor(Math.random()*arr1.length)
     b.textContent= arr1[ran]
-    arr1.splice(ran,1)    
-    console.log(arr1);
+    arr1.splice(ran,1)  
     })
     
     arr1 = Object.assign([],arr)
