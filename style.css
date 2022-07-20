@@ -1,0 +1,54 @@
+.container{
+    width: 300px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: relative;
+    height: 300px;
+}
+
+
+.box{
+    width: 20px;
+
+    height: 20px;
+    border: 1px solid red;
+    margin: 20px;
+    text-align: center;
+}
+
+.box1{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.box2{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+}
+
+.box3{
+    position: absolute;
+    top: 130px;
+    left: 230px;
+}
+
+.box4{
+    position: absolute;
+    top: 130px;
+    left: 5px;
+}
+
+.box5{
+    position: absolute;
+    top: 250px;
+    left: 110px;
+}
+
+
+#btn{
+    position: absolute;
+    top: 150px;
+    left: 125px;
+}
