@@ -1,10 +1,19 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .container{
     width: 300px;
     border: 1px solid red;
     border-radius: 50%;
     position: relative;
     height: 300px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -20,36 +29,36 @@
 .box1{
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 30px;
 }
 
 .box2{
     position: absolute;
     top: 20px;
-    left: 190px;
+    left: 205px;
 }
 
 .box3{
     position: absolute;
     top: 130px;
-    left: 230px;
+    left: 240px;
 }
 
 .box4{
     position: absolute;
     top: 130px;
-    left: 5px;
+    left: -5px;
 }
 
 .box5{
     position: absolute;
-    top: 250px;
-    left: 110px;
+    top: 240px;
+    left: 120px;
 }
 
 
 #btn{
     position: absolute;
     top: 150px;
-    left: 125px;
+    left: 137px;
 }
